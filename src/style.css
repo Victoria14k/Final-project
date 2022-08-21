@@ -1,9 +1,10 @@
 .weather-app {
+  display: block;
   max-width: 600px;
   background: linear-gradient(
     179.2deg,
-    rgb(21, 21, 212) 0.9%,
-    rgb(53, 220, 243) 95.5%
+    rgb(11, 11, 173) 0.9%,
+    rgb(68, 205, 224) 95.5%
   );
   margin: 30 auto;
   padding: 20px;
