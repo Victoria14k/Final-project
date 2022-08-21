@@ -20,7 +20,7 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: white;
   font-size: 24px;
-  margin-top: 8px;
+  margin-bottom: 0;
 }
 .li {
   list-style: none;
