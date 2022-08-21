@@ -11,8 +11,7 @@
   border: 1px solid white;
   border-radius: 5px;
 }
-.container {
-}
+
 .form-select {
   display: block;
 }
@@ -21,6 +20,7 @@ h1 {
   color: white;
   font-size: 26px;
   margin-bottom: 0;
+  margin-left: 30px;
 }
 li {
   list-style: none;
@@ -28,38 +28,11 @@ li {
   font-size: 16px;
   color: white;
   margin-left: 0;
+  text-transform: capitalize;
 }
 ul {
   margin: 0;
   padding: 0;
-}
-h2 {
-  display: block;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: white;
-  margin-bottom: 5px;
-}
-.temperature {
-  display: block;
-  text-align: center;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 26px;
-  color: white;
-  margin-top: 8px;
-}
-.temperature-description,
-.feels-like,
-.humidity,
-.windspeed {
-  display: block;
-  text-align: center;
-  text-transform: capitalize;
-  margin: 0 auto;
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: white;
 }
 
 .container-sm {
@@ -94,7 +67,7 @@ h2 {
   position: relative;
   color: white;
   right: -600px;
-  top: 0px;
+  top: -30px;
   font-size: 12px;
 }
 a {
