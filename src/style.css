@@ -28,7 +28,6 @@ li {
   font-size: 16px;
   color: white;
   margin-left: 0;
-  
 }
 li:first-letter {
   text-transform: capitalize;
@@ -66,12 +65,20 @@ ul {
   line-height: 1;
   font-weight: 400;
 }
-.weather-temperature.units {
+.weather-temperature .units {
   position: relative;
   color: white;
   right: -600px;
   top: -30px;
   font-size: 12px;
+}
+.weather-temperature .active {
+  color: white;
+  cursor: default;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
 }
 a {
   color: white;
