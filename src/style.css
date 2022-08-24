@@ -32,21 +32,12 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-.container-sm {
-  display: block;
-  margin: 0 80px 0 80px;
-}
-
 .col-6 {
   color: white;
   font-size: 17px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.button {
-  font-family: sans-serif;
-  font-size: 15px;
-}
+
 .overview {
   margin-bottom: 20px;
 }
@@ -78,9 +69,10 @@ ul {
 .weather-temperature .active:hover {
   text-decoration: none;
 }
-a {
+ small {
   color: white;
-}
+  font-size: 12px;
+ }
 .weather-forecast {
   margin-top: 20px;
   text-align: center;
