@@ -67,10 +67,12 @@ ul {
   right: -5px;
   top: -35px;
   font-size: 12px;
+  text-decoration: none;
 }
 .weather-temperature .active {
   color: white;
   cursor: default;
+  text-decoration: none;
 }
 
 .weather-temperature .active:hover {
