@@ -1,7 +1,7 @@
 .weather-app {
   display: block;
   max-width: 600px;
-  background: linear-gradient(to bottom, #f7fb05 0%, #4916d6 100%);
+  background: linear-gradient(0.3deg, rgb(30, 161, 239) 0.9%, rgb(49, 46, 252) 88.6%);
   margin: 30 auto;
   padding: 20px;
   border: 1px solid white;
@@ -58,6 +58,10 @@ ul {
   right: -5px;
   top: -35px;
   font-size: 12px;
+  text-decoration: none;
+}
+a {
+  color: black;
   text-decoration: none;
 }
 .weather-temperature .active {
