@@ -88,6 +88,7 @@ function handleSubmit(event) {
 }
 
 search("Kyiv");
+displayForecast();
 
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
